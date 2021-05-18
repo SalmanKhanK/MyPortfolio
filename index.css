@@ -1,0 +1,53 @@
+/* *{
+    margin: 0;
+} */
+.hiring{
+    margin-top: 120px;
+    text-align: center;
+}
+.hiring >h2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:200px;
+}
+@media screen and (max-width: 535px) {
+    .hiring >h2 {
+        font-size: 22px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+  }
+  
+  #projects{
+      margin-top: 430px;
+      margin-bottom: 300px;
+  }
+.skillimage{
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+}
+@media screen and (max-width: 535px) {
+    .skillimage {
+         display: flex;
+         flex-direction: column;
+    }
+    .skillimage > div{
+        margin: 20px;
+    }
+  }
+.subheadingSkill{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#Aboutme{
+    margin-top: 320px;
+    margin-bottom: 250px;
+}
+.aboutmetext{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
